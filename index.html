@@ -1,77 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="Emmanuela Opurum — DevOps Engineer & Solutions Architect skilled in CI/CD, AWS, Azure, and Infrastructure as Code. Experienced in designing scalable cloud solutions and implementing automated pipelines." />
+  <meta name="author" content="Emmanuela Opurum" />
   <title>Emmanuela Opurum — DevOps & Solutions Architect</title>
-  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" type="image/x-icon" href="assets/img/favicon.jpg" />
+  <!-- Font Awesome -->
+  <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" />
+  <!-- Bootstrap CSS -->
+  <link href="css/styles.css" rel="stylesheet" />
 </head>
-<body>
-  <header class="hero">
-    <img src="assets/profile.jpg" alt="Emmanuela Photo" class="avatar">
-    <h1>Emmanuela Opurum</h1>
-    <p class="tagline">DevOps Engineer & Solutions Architect</p>
-    <p class="contact">
-      ✉️ <a href="mailto:emmanuela_prince@yahoo.com">emmanuela_prince@yahoo.com</a> • 
-      <a href="https://linkedin.com/in/cloud-architect-emma" target="_blank">LinkedIn</a> • 
-      <a href="https://github.com/Cloud-Architect-Emma" target="_blank">GitHub</a>
-    </p>
-    <p>
-      <a class="cta" href="#projects">View Projects</a> 
-      <a class="cta ghost" href="resume/Emmanuela_Opurum_Resume.pdf" target="_blank">📄 View Resume</a>
-    </p>
-  </header>
 
-  <main class="container">
-    <section id="about" class="card">
-      <h2>About Me</h2>
-      <p>
-        I’m Emmanuela — a DevOps Engineer and MSc Data Analytics student passionate about designing scalable, 
-        secure, and automated cloud solutions. I specialize in AWS and Azure architectures, CI/CD pipelines, and infrastructure as code.
-      </p>
-    </section>
-
-    <section id="skills" class="card">
-      <h2>Core Skills</h2>
-      <ul class="skills">
-        <li>AWS (EC2, S3, Lambda, VPC, RDS)</li>
-        <li>Azure (VM, AKS, Storage)</li>
-        <li>Terraform, CloudFormation, Ansible</li>
-        <li>Docker, Kubernetes, Helm</li>
-        <li>CI/CD: GitHub Actions, Jenkins</li>
-        <li>Monitoring: Prometheus, Grafana</li>
-        <li>Python, Bash, SQL</li>
+<body id="page-top">
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <span class="d-block d-lg-none">Emmanuela Opurum</span>
+      <span class="d-none d-lg-block">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="Emmanuela Photo" />
+      </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
       </ul>
-    </section>
+    </div>
+  </nav>
 
-    <section id="projects" class="card">
-      <h2>Highlighted Projects</h2>
-      <article>
-        <h3>Full-Stack CI/CD Architecture</h3>
-        <p>Implemented end-to-end CI/CD pipeline with AWS ECS, GitHub Actions, and Terraform for automated scalable deployments.</p>
-      </article>
-      <article>
-        <h3>Serverless Web App</h3>
-        <p>Designed a cost-effective serverless architecture using AWS Lambda, API Gateway, and DynamoDB with CloudFormation IaC.</p>
-      </article>
-    </section>
+  <!-- Page Content -->
+  <div class="container-fluid p-0">
+    <!-- About -->
+    <section class="resume-section" id="about">
+      <div class="resume-section-content">
+        <h1 class="mb-0">Emmanuela <span class="text-primary">Opurum</span></h1>
+        <div class="subheading mb-5">
+          London, United Kingdom · 
+          <a href="mailto:emmanuela_prince@yahoo.com">emmanuela_prince@yahoo.com</a> · 
+          <a href="assets/Emmanuela_Resume.pdf" target="_blank"><i class="fa-solid fa-file"></i> View Resume</a>
+        </div>
 
-    <section id="education" class="card">
-      <h2>Education</h2>
-      <p><strong>MSc Data Analytics</strong> — Ulster University, UK (2025)</p>
-      <p><strong>B.A. Communication Studies</strong> — University of Port Harcourt, Nigeria (2014)</p>
-    </section>
+        <p class="lead mb-5">
+          I’m a DevOps Engineer and Cloud Solutions Architect with a strong foundation in automation, CI/CD, and cloud-native deployments across AWS and Azure. I specialize in designing secure, scalable infrastructures, implementing Infrastructure as Code (IaC), and optimizing development pipelines to deliver reliable and high-performing applications.
+        </p>
 
-    <section id="contact" class="card">
-      <h2>Contact Me</h2>
-      <form action="https://formsubmit.co/emmanuela_prince@yahoo.com" method="POST">
-        <input type="text" name="name" placeholder="Your Name" required>
-        <input type="email" name="email" placeholder="Your Email" required>
-        <textarea name="message" placeholder="Your Message" required></textarea>
-        <button type="submit">Send Message</button>
-      </form>
+        <div class="social-icons">
+          <a class="social-icon" href="https://linkedin.com/in/emmanuelaopurum" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          <a class="social-icon" href="https://github.com/Cloud-Architect-Emma" target="_blank"><i class="fab fa-github"></i></a>
+          <a class="social-icon" href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
     </section>
-  </main>
+    <hr class="m-0" />
 
-  <footer class="footer">
-    <p>© <span id="year"></span> Emmanuela
+    <!-- Projects -->
+    <section class="resume-section" id="projects">
+      <div class="resume-section-content">
+        <h2 class="mb-5">Featured Projects</h2>
+
+        <div class="project">
+          <h3>Full-Stack CI/CD Cloud Architecture</h3>
+          <p>
+            Built a robust CI/CD pipeline integrating Jenkins, GitHub Actions, and Docker for automated testing and deployment on AWS EC2 and EKS. Implemented Terraform for IaC, enabling repeatable multi-environment provisioning and monitoring with Prometheus and Grafana.
+          </p>
+          <a href="https://github.com/Cloud-Architect-Emma/FullStack-CICD" target="_blank">View Project →</a>
+        </div>
+
+        <div class="project">
+          <h3>AWS Infrastructure as Code</h3>
+          <p>
+            Developed multi-tier AWS architecture (VPC, EC2, RDS, S3) using Terraform and CloudFormation. Automated deployments with GitHub Actions and enhanced infrastructure observability using AWS CloudWatch.
+          </p>
+          <a href="https://github.com/Cloud-Architect-Emma/AWS-IaC" target="_blank">View Project →</a>
+        </div>
+
+        <div class="project">
+          <h3>Monitoring & Logging Pipeline</h3>
+          <p>
+            Designed a real-time observability solution integrating Prometheus, Grafana, and the ELK Stack for monitoring Kubernetes clusters and application metrics across AWS EKS environments.
+          </p>
+          <a href="https://github.com/Cloud-Architect-Emma/Monitoring-Stack" target="_blank">View Project →</a>
+        </div>
+      </div>
+    </section>
+    <hr class="m-0" />
+
+    <!-- Education -->
+    <section class="resume-section" id="education">
+      <div class="resume-section-content">
+        <h2 class="mb-5">Education</h2>
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
+          <div class="flex-grow-1">
+            <h3 class="mb-0">Ulster University, United Kingdom</h3>
+            <div class="subheading mb-3">MSc International Business with Data Analytics</div>
+            <p>2024 – 2025</p>
+          </div>
+        </div>
+
+        <div class="d-flex flex-column flex-md-row justify-content-between">
+          <div class="flex-grow-1">
+            <h3 class="mb-0">University of Port Harcourt, Nigeria</h3>
+            <div class="subheading mb-3">B.A. Communication Studies</div>
+            <p>2010 – 2014</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr class="m-0" />
+
+    <!-- Skills -->
+    <section class="resume-section" id="skills">
+      <div class="resume-section-content">
+        <h2 class="mb-5">Skills & Tools</h2>
+        <ul>
+          <li><b>Cloud Platforms:</b> AWS, Azure</li>
+          <li><b>CI/CD:</b> Jenkins, GitHub Actions, AWS CodePipeline</li>
+          <li><b>IaC:</b> Terraform, CloudFormation, Ansible</li>
+          <li><b>Containers:</b> Docker, Kubernetes, Helm</li>
+          <li><b>Monitoring:</b> Prometheus, Grafana, ELK Stack</li>
+          <li><b>Languages:</b> Python, Bash, YAML</li>
+        </ul>
+      </div>
+    </section>
+    <hr class="m-0" />
+
+    <!-- Contact -->
+    <section class="resume-section" id="contact">
+      <div class="resume-section-content">
+        <h2 class="mb-5">Contact Me</h2>
+        <form action="https://formsubmit.co/emmanuela_prince@yahoo.com" method="POST">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="message" placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer text-center">
+    <p>© <span id="year"></span> Emmanuela Opurum | Built with 💙 using HTML, CSS, and Bootstrap</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
