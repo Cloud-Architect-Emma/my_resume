@@ -3,13 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Emmanuela — DevOps & Solutions Architect</title>
-  <link rel="stylesheet" href="styles.css" />
-  <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/4140/4140048.png">
+  <title>Emmanuela Opurum — DevOps & Solutions Architect</title>
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
   <header class="hero">
-    <img src="https://via.placeholder.com/150" alt="Emmanuela Photo" class="avatar">
+    <img src="assets/profile.jpg" alt="Emmanuela Photo" class="avatar">
     <h1>Emmanuela Opurum</h1>
     <p class="tagline">DevOps Engineer & Solutions Architect</p>
     <p class="contact">
@@ -18,8 +17,8 @@
       <a href="https://github.com/Cloud-Architect-Emma" target="_blank">GitHub</a>
     </p>
     <p>
-      <a class="cta" href="#projects">View Projects</a>
-      <a class="cta ghost" href="#contact">Contact Me</a>
+      <a class="cta" href="#projects">View Projects</a> 
+      <a class="cta ghost" href="resume/Emmanuela_Opurum_Resume.pdf" target="_blank">📄 View Resume</a>
     </p>
   </header>
 
@@ -27,48 +26,39 @@
     <section id="about" class="card">
       <h2>About Me</h2>
       <p>
-        I’m Emmanuela — a DevOps Engineer and MSc Data Analytics student with a passion for automation and cloud architecture.
-        I specialise in building scalable CI/CD pipelines and deploying infrastructure on AWS and Azure using IaC tools like Terraform and CloudFormation.
-        I thrive in teams that embrace modern DevOps culture — continuous learning, innovation, and collaboration.
+        I’m Emmanuela — a DevOps Engineer and MSc Data Analytics student passionate about designing scalable, 
+        secure, and automated cloud solutions. I specialize in AWS and Azure architectures, CI/CD pipelines, and infrastructure as code.
       </p>
     </section>
 
     <section id="skills" class="card">
-      <h2>Skills & Tools</h2>
+      <h2>Core Skills</h2>
       <ul class="skills">
-        <li>AWS (EC2, S3, IAM, CloudFormation, Lambda)</li>
-        <li>Azure VM, Storage Account, AKS</li>
-        <li>Docker • Kubernetes • Helm</li>
-        <li>Terraform • Ansible</li>
+        <li>AWS (EC2, S3, Lambda, VPC, RDS)</li>
+        <li>Azure (VM, AKS, Storage)</li>
+        <li>Terraform, CloudFormation, Ansible</li>
+        <li>Docker, Kubernetes, Helm</li>
         <li>CI/CD: GitHub Actions, Jenkins</li>
-        <li>Monitoring: Prometheus, Grafana, ELK Stack</li>
-        <li>Languages: Python, Bash, SQL</li>
-        <li>OS: Linux, Windows Server</li>
+        <li>Monitoring: Prometheus, Grafana</li>
+        <li>Python, Bash, SQL</li>
       </ul>
     </section>
 
     <section id="projects" class="card">
-      <h2>Featured Projects</h2>
-
+      <h2>Highlighted Projects</h2>
       <article>
-        <h3><a href="#">CI/CD Pipeline with Jenkins & GitHub Actions</a></h3>
-        <p>Automated build, test, and deployment to AWS EC2 using Docker containers and GitHub Actions.</p>
+        <h3>Full-Stack CI/CD Architecture</h3>
+        <p>Implemented end-to-end CI/CD pipeline with AWS ECS, GitHub Actions, and Terraform for automated scalable deployments.</p>
       </article>
-
       <article>
-        <h3><a href="#">Kubernetes Monitoring Setup</a></h3>
-        <p>Configured Prometheus and Grafana dashboards to monitor EKS cluster performance in real time.</p>
-      </article>
-
-      <article>
-        <h3><a href="#">AWS Infrastructure as Code</a></h3>
-        <p>Provisioned multi-tier architecture (VPC, EC2, RDS, S3) using Terraform and CloudFormation modules.</p>
+        <h3>Serverless Web App</h3>
+        <p>Designed a cost-effective serverless architecture using AWS Lambda, API Gateway, and DynamoDB with CloudFormation IaC.</p>
       </article>
     </section>
 
     <section id="education" class="card">
       <h2>Education</h2>
-      <p><strong>MSc International Business with Data Analytics</strong> — Ulster University, UK (2025)</p>
+      <p><strong>MSc Data Analytics</strong> — Ulster University, UK (2025)</p>
       <p><strong>B.A. Communication Studies</strong> — University of Port Harcourt, Nigeria (2014)</p>
     </section>
 
@@ -84,11 +74,4 @@
   </main>
 
   <footer class="footer">
-    <p>© <span id="year"></span> Emmanuela Opurum | Built with 💙 on GitHub Pages</p>
-  </footer>
-
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
-</body>
-</html>
+    <p>© <span id="year"></span> Emmanuela
