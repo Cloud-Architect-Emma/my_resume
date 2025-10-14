@@ -1,27 +1,92 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Emmanuela Opurum | DevOps & Cloud Portfolio</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Emmanuela — DevOps & Solutions Architect</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <h1>Welcome!</h1>
-  <p>You've found a part of my digital realm.</p>
+  <header class="hero">
+    <img src="https://via.placeholder.com/150" alt="Emmanuela Photo" class="avatar">
+    <h1>Emmanuela Opurum</h1>
+    <p class="tagline">DevOps Engineer & Aspiring Solutions Architect</p>
+    <p class="contact">
+      ✉️ <a href="mailto:emmanuela_prince@yahoo.com">emmanuela_prince@yahoo.com</a> • 
+      <a href="#" target="_blank">LinkedIn</a> • 
+      <a href="https://github.com/Cloud-Architect-Emma" target="_blank">GitHub</a>
+    </p>
+    <p><a class="cta" href="#projects">View Projects</a> 
+       <a class="cta ghost" href="#contact">Contact Me</a></p>
+  </header>
 
-  <h2>About</h2>
-  <p>I’m a DevOps and Cloud Enthusiast passionate about automation, CI/CD, and scalable architecture...</p>
+  <main class="container">
+    <section id="about" class="card">
+      <h2>About Me</h2>
+      <p>
+        I’m Emmanuela — a DevOps Engineer and MSc Data Analysis student with a passion for automation and cloud architecture. 
+        I specialise in building scalable CI/CD pipelines and deploying infrastructure on AWS and Azure using IaC tools like Terraform and CloudFormation. 
+        I thrive in teams that embrace modern DevOps culture — continuous learning, innovation, and collaboration.
+      </p>
+    </section>
 
-  <h2>Projects</h2>
-  <ul>
-    <li><a href="#">CI/CD Pipeline with Jenkins & Docker</a></li>
-    <li><a href="#">Kubernetes Monitoring with Prometheus & Grafana</a></li>
-    <li><a href="#">AWS Infrastructure as Code with CloudFormation</a></li>
-  </ul>
+    <section id="skills" class="card">
+      <h2>Skills & Tools</h2>
+      <ul class="skills">
+        <li>AWS (EC2, S3, IAM, CloudFormation, Lambda)</li>
+        <li>Azure VM, Storage Account, AKS</li>
+        <li>Docker • Kubernetes • Helm</li>
+        <li>Terraform • Ansible</li>
+        <li>CI/CD: GitHub Actions, Jenkins</li>
+        <li>Monitoring: Prometheus, Grafana, ELK Stack</li>
+        <li>Languages: Python, Bash, SQL</li>
+        <li>OS: Linux, Windows Server</li>
+      </ul>
+    </section>
 
-  <footer>
-    <p>© 2025 Emmanuela Opurum</p>
+    <section id="projects" class="card">
+      <h2>Featured Projects</h2>
+
+      <article>
+        <h3><a href="#">CI/CD Pipeline with Jenkins & GitHub Actions</a></h3>
+        <p>Automated build, test, and deployment to AWS EC2 using Docker containers and GitHub Actions.</p>
+      </article>
+
+      <article>
+        <h3><a href="#">Kubernetes Monitoring Setup</a></h3>
+        <p>Configured Prometheus and Grafana dashboards to monitor EKS cluster performance in real time.</p>
+      </article>
+
+      <article>
+        <h3><a href="#">AWS Infrastructure as Code</a></h3>
+        <p>Provisioned multi-tier architecture (VPC, EC2, RDS, S3) using Terraform and CloudFormation modules.</p>
+      </article>
+    </section>
+
+    <section id="education" class="card">
+      <h2>Education</h2>
+      <p><strong>MSc Data Analytics</strong> — Ulster University, UK (2025)</p>
+      <p><strong>BSc Communication Studies</strong> — University of Port Harcourt, Nigeria (2014)</p>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contact Me</h2>
+      <form action="https://formsubmit.co/emmanuela_prince@yahoo.com" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Emmanuela Opurum | Built with 💙 on GitHub Pages</p>
   </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
+
