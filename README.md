@@ -16,3 +16,11 @@ You can view my resume live here:
 1. Clone this repository:
    ```bash
    git clone https://github.com/Cloud-Architect-Emma/my_resume.git
+
+### How to run **
+The website is hosted on GitHub Pages. You can view it here.
+
+If you want to run it locally, you can clone the repo and open the index.html file in your browser.
+
+Updates
+I will be updating the resume as I learn more and advance in my career. I will also be adding a blog section to the website soon.
